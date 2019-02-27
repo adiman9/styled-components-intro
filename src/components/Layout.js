@@ -1,9 +1,7 @@
-import React from 'react';
+import styled from 'styled-components';
 
-export function Container({ children }) {
-  return (
-    <div className="container">
-      {children}
-    </div>
-  );
-}
+export const Container = styled.div`
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+`;

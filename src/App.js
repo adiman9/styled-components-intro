@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './App.css';
 import { Card, CardImage, CardFooter } from './components/Card';
 import { Container } from './components/Layout.js';
 import { Button } from './components/Button.js';
