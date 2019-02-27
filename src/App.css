@@ -1,0 +1,51 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+  width: 600px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.card.light {
+  background: #fefefe;
+}
+
+.card.dark {
+  background: #454545;
+}
+
+.card-footer {
+  padding: 10px;
+}
+
+.btn {
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+  padding: 0.6em 0.9em;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn.light {
+  color: #fff;
+  background-color: #ff4081;
+}
+
+.btn.dark {
+  color: #fefefe;
+  opacity: 0.7;
+  background-color: #676767;
+}
